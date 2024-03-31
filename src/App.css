@@ -1,0 +1,50 @@
+.dashboard-container {
+    width: 1700px;
+    background: rgb(2,0,36);
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    
+    color:white
+  }
+  
+  .sectionone {
+    width: 45%;
+    height: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  
+  .sectiontwo {
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 300px;
+    
+    position: relative;
+
+
+  }
+  /* Dashboard.css */
+
+.pie-chart-container {
+  /* Align the top of the container with the lists */
+   height: 300px;
+   width: 300px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+   margin-left: 500px;
+ }
+ 
+  .h1{
+    text-align: center;
+  }
+  

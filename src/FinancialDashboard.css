@@ -1,0 +1,79 @@
+.dashboard-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f3f5;
+  }
+  
+  .dashboard-header1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .welcome-message h2 {
+    font-size: 36px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .char-animation {
+    display: inline-block;
+    opacity: 0;
+    animation: slideIn 0.8s forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .features {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features h2 {
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
